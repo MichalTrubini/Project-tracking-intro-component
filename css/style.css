@@ -160,4 +160,11 @@ img {
 html {
   font-size: 62.5%;
 }
+
+body {
+  background: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #242942;
+}
 /*# sourceMappingURL=style.css.map */

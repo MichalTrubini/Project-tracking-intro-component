@@ -1,1 +1,8 @@
 @import 'normalize','settings','variables';
+
+body {
+    background: $background-body;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:$color-main;
+}
