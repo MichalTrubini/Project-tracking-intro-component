@@ -9,24 +9,58 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <title>Frontend Mentor | Project tracking intro component</title>
 
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo-container">
+        <img src="images/logo.svg" alt="Site logo" class="nav__logo">
+      </div>
+      <div class="nav__menu-container">
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Product</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+          </ul>
+          <a href="#" class="nav__login">Login</a>
+        </div>
+        <img src="images/icon-hamburger.svg" alt="menu" class="nav__hamburger">
+      </div>
+    </nav>
+  </header>
 
-  New
-  Monograph Dashboard
-
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
-  
+  <main class="main">
+    <section class="hero">
+      <div class="hero__image-container">
+        <img src="images/illustration-devices.svg" alt="hero image" class="hero__image">
+      </div>
+      <div class="hero__content">
+        <div class="hero__row">
+          <p class="hero__badge">
+            New
+          </p>
+          <p class="hero__about">
+            Monograph Dashboard
+          </p>
+        </div>
+        <h1 class="hero__heading">
+          Powerful insights into your team
+        </h1>
+        <p class="hero__paragraph">
+          Project planning and time tracking for agile teams
+        </p>
+        <div class="hero__row">
+          <a href="#" class="hero__link">Schedule a demo</a>
+          <p class="hero__about">
+            to see a live preview
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
