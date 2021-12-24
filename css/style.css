@@ -349,6 +349,7 @@ li {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    opacity: 1;
   }
   .nav__list {
     -webkit-box-orient: horizontal;
